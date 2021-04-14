@@ -4,17 +4,22 @@ class Atm{
 		Scanner sc = new Scanner(System.in);
 		boolean isPin = false;
 		double balance = 100000.564;
+		try{
 		while(isPin!=true){
 			System.out.println("Enter Pin:");
-			int pin = sc.nextInt();
-			if(pin==1234){
+		    int pin = sc.nextInt();
+  			if(pin==1234){
 				isPin=true;
 			}else{
 				isPin=false;
 				System.out.println("Wrong Pin!");
-			}
+			}				
 
 		}
+		}catch(Exception e){
+			System.out.println("Enter 4 digit pin");
+		}
+
 		System.out.println("Success");
 		System.out.println("Enter Choice:");
 		System.out.println("[1] Withdraw");
