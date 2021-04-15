@@ -6,5 +6,6 @@ class Arraylist {
         for (String i : language) {
             System.out.println(i);
         }
+        System.out.println(language);
     }
 }
