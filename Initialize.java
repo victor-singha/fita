@@ -16,6 +16,8 @@ public class Initialize {
 
         // ArrayList Initialize
         ArrayList<String> phones = new ArrayList<String>(Arrays.asList("Nokia", "iPhone", "Samsung"));
+        phones.add("Mi");
+        phones.add("POCO X3");
 
         // HashMap declare
         HashMap<String, Integer> age = new HashMap<String, Integer>();
