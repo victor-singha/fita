@@ -16,6 +16,8 @@ public class Hashmap {
             tech.put(language.get(i), technology.get(i));
         }
         System.out.println(tech);
+        // print all the keys in HashMap
+        System.out.println(tech.keySet());
     }
 
 }
