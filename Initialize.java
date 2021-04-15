@@ -11,6 +11,7 @@ public class Initialize {
 
         // Array Initialize
         String techs[] = new String[] { "nodejs", "react", "angular", "vuejs" };
+        System.out.println(Arrays.toString(techs));
 
         int toss[][] = new int[5][5];
 
