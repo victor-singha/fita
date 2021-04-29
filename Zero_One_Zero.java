@@ -1,6 +1,5 @@
 public class Zero_One_Zero {
     public static void main(String[] args) {
-
         // input 3
         // output 0123210
         // input 5
