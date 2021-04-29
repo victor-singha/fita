@@ -1,0 +1,34 @@
+[
+    {
+        
+            "question": "Are you feeling cold?",
+            "score": "10",
+            "weight": "5",
+            "keys": "Yes cold headache nose throat pain sour fever temperature high backpain breathing hot difficult"
+        
+    },
+    {
+        
+           "question": "Do you have any backpain?",
+            "score": "10",
+            "weight": "4",
+            "keys": "Yes cold headache nose throat pain sour fever temperature high backpain breathing hot"
+        
+    },
+    {
+        
+        "question": "Difficulty in breathing?",
+         "score": "10",
+         "weight": "2",
+         "keys": "Yes cold headache nose throat pain sour fever temperature high backpain breathing hot"
+     
+    },
+    {
+        
+         "question": "Do you feel Headache?",
+        "score": "10",
+        "weight": "8",
+        "keys": "Yes cold headache nose throat pain sour fever temperature high backpain breathing hot"
+ 
+    }
+]
