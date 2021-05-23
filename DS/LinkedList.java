@@ -26,12 +26,10 @@ public class LinkedList<T> {
             System.out.println(temp.data + " ");
             temp = temp.next;
         }
-
     }
 
     public void remove(T data) {
         try {
-
             Node<T> temp = this.head;
             if (temp == null) {
                 System.out.println("No such data exist.");
