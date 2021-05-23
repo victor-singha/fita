@@ -35,8 +35,16 @@ public class LinkedList<T> {
             System.out.println("No such data exist.");
             return;
         }
+        if (temp.data == data) {
+            this.head = temp.next;
+            return;
+        }
         while (temp != null) {
-
+            if (temp.next.data == data) {
+                temp.next = temp.next.next;
+                return;
+            }
+            temp = temp.next;
         }
 
     }
