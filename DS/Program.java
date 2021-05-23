@@ -9,7 +9,7 @@ public class Program {
         list.add(4);
         list.add(5);
         list.display();
-        list.remove(3);
+        list.remove(8);
         list.display();
     }
 }

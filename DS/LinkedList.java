@@ -30,21 +30,26 @@ public class LinkedList<T> {
     }
 
     public void remove(T data) {
-        Node<T> temp = this.head;
-        if (temp == null) {
-            System.out.println("No such data exist.");
-            return;
-        }
-        if (temp.data == data) {
-            this.head = temp.next;
-            return;
-        }
-        while (temp != null) {
-            if (temp.next.data == data) {
-                temp.next = temp.next.next;
+        try {
+
+            Node<T> temp = this.head;
+            if (temp == null) {
+                System.out.println("No such data exist.");
                 return;
             }
-            temp = temp.next;
+            if (temp.data == data) {
+                this.head = temp.next;
+                return;
+            }
+            while (temp != null) {
+                if (temp.next.data == data) {
+                    temp.next = temp.next.next;
+                    return;
+                }
+                temp = temp.next;
+            }
+        } catch (Exception e) {
+            System.out.println(data + " does not present in the linkedlist");
         }
 
     }
