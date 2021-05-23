@@ -15,8 +15,7 @@ public class EvenOdd {
             } else
                 sorted.addLast(i);
         }
-        for (Integer x : sorted) {
-            System.out.println(x);
-        }
+
+        System.out.println(sorted);
     }
 }
