@@ -1,2 +1,2 @@
-# fita codes 🍕
+# `fita codes 🍕`
 practice repo 🎈
