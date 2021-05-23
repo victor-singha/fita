@@ -15,4 +15,29 @@ public class LinkedList<T> {
             temp.next = node;
         }
     }
+
+    public void display() {
+        Node<T> temp = this.head;
+        if (temp == null) {
+            System.out.println("No such data exist.");
+            return;
+        }
+        while (temp != null) {
+            System.out.println(temp.data + " ");
+            temp = temp.next;
+        }
+
+    }
+
+    public void remove(T data) {
+        Node<T> temp = this.head;
+        if (temp == null) {
+            System.out.println("No such data exist.");
+            return;
+        }
+        while (temp != null) {
+
+        }
+
+    }
 }
